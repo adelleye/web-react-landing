@@ -1,0 +1,22 @@
+.Header {
+  position: fixed;
+  padding: 25px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#site-title {
+  margin: 0;
+  width: 50%;
+}
+
+#site-title a {
+  color: white;
+}
+
+.HeaderGroup {
+  margin: 0, 100;
+  width: 50%;
+}
