@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
     <div id="site-title" align="left">
       <a>Colima</a>
     </div>
-    <div className="HeaderGroup" align="right">
+    <div className="HeaderGroup">
       <Link to="/about">About</Link>
       <Link to="/ourInstructors">Our Instructors</Link>
       <Link to="/classes">Classes</Link>
