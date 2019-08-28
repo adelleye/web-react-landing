@@ -5,6 +5,11 @@
   width: 100%;
   display: flex;
 }
+.HeaderScrolled {
+  background: #38383b;
+  padding: 15px 0;
+  backdrop-filter: blur(20px);
+}
 
 #site-title {
   margin: 0;

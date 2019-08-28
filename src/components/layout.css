@@ -19,6 +19,7 @@ a {
   background: url("../images/mainImage.jpg");
   height: 800px;
   background-size: cover;
+  position: relative;
 }
 
 .FirstContentGroup {
