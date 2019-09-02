@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -16,32 +17,6 @@ const IndexPage = () => (
           for a complimentary drop-in class now.
         </p>
         <Link to="/page-2/">Book a Class</Link>
-      </div>
-    </div>
-    <div className="SecondContent">
-      <div className="UpcomingClassLabel">
-        <div className="UpcomingTextWrapper">
-          <h1>Upcoming Classes</h1>
-        </div>
-      </div>
-
-      <div className="YogaInstructorContainer">
-        <div className="YogaAerobicsContainer">
-          <h3>Yoga Aerobics</h3>
-        </div>
-        <div className="InstructorTrainingContainer">
-          <h3>Instructor Training</h3>
-        </div>
-      </div>
-
-      <div className="UpcomingTextWrapper">
-        <h2>
-          Besides our regular schedule, we also frequently host visiting
-          teachers and speakers.
-        </h2>
-      </div>
-      <div>
-        <button>View More</button>
       </div>
     </div>
   </Layout>
