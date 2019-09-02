@@ -33,6 +33,13 @@ const IndexPage = () => (
           <h3>Instructor Training</h3>
         </div>
       </div>
+
+      <div className="UpcomingTextWrapper">
+        <h2>
+          Besides our regular schedule, we also frequently host visiting
+          teachers and speakers.
+        </h2>
+      </div>
     </div>
   </Layout>
 )

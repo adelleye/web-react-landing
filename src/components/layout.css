@@ -101,7 +101,6 @@ a {
 .SecondContent {
   height: 800px;
   position: relative;
-  background: red;
 }
 
 .SecondContent h1 {
@@ -127,7 +126,7 @@ a {
 .UpcomingTextWrapper {
   padding-left: 60px;
   padding-top: 40px;
-  width: 50%;
+  max-width: 560px;
   align-items: center;
 }
 
