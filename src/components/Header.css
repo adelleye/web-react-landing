@@ -1,0 +1,83 @@
+.Header {
+  position: fixed;
+  padding: 25px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+}
+.HeaderScrolled {
+  background: #38383b;
+  padding: 15px 0;
+  backdrop-filter: blur(20px);
+}
+
+#site-title {
+  margin: 0;
+  padding-left: 30px;
+  width: 50%;
+  align-items: center;
+}
+
+#site-title a {
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.HeaderGroup {
+  margin: 0, 100;
+  padding-right: 30px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: center;
+}
+
+.Header a {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+}
+.Header button {
+  background-color: rgba(168, 166, 160, 1);
+  padding: 20px 30px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Header button:hover {
+  background-color: rgba(168, 166, 160, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {
+  .Header {
+    padding: 15px 0;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .Header a:nth-child(4) {
+    display: none;
+  }
+  #site-title {
+    padding-left: 40px;
+    width: 50%;
+    align-items: center;
+  }
+
+  #site-title a {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+}
