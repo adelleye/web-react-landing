@@ -40,6 +40,9 @@ const IndexPage = () => (
           teachers and speakers.
         </h2>
       </div>
+      <div>
+        <button>View More</button>
+      </div>
     </div>
   </Layout>
 )
