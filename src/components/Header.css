@@ -3,21 +3,36 @@
   padding: 25px;
   z-index: 100;
   width: 100%;
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
 .HeaderScrolled {
   background: #38383b;
   transition: 1s;
+=======
+  display: flex;
+}
+.HeaderScrolled {
+  background: #38383b;
+  padding: 15px 0;
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
   backdrop-filter: blur(20px);
 }
 
 #site-title {
+<<<<<<< HEAD
   margin: auto;
   margin-left: 30px;
   width: 50%;
   align-items: left;
   justify-items: left;
+=======
+  margin: 0;
+  padding-left: 30px;
+  width: 50%;
+  align-items: center;
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
 }
 
 #site-title a {
@@ -30,11 +45,18 @@
 .HeaderGroup {
   margin: 0, 100;
   padding-right: 30px;
+<<<<<<< HEAD
   width: 100%;
   display: grid;
   grid-template-columns: repeat(6, auto);
   align-items: center;
   justify-items: center;
+=======
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: center;
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
 }
 
 .Header a {
@@ -43,14 +65,20 @@
   font-size: 16px;
   line-height: 29px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
 .Header button {
   background-color: rgba(168, 166, 160, 1);
   padding: 20px 30px;
   border: none;
   color: #ffffff;
+<<<<<<< HEAD
   margin: auto;
   margin-right: 30px;
+=======
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;

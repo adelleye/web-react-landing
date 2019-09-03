@@ -33,7 +33,11 @@ class Header extends React.Component {
       <div
         className={this.state.hasScrolled ? "Header HeaderScrolled" : "Header"}
       >
+<<<<<<< HEAD
         <div id="site-title">
+=======
+        <div id="site-title" align="left">
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
           <a>Colima</a>
         </div>
         <div className="HeaderGroup">

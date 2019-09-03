@@ -60,12 +60,21 @@ a {
   font-size: 24px;
   line-height: 43px;
   text-decoration: underline;
+<<<<<<< HEAD
 }
 
 .FirstContent a:hover {
   color: rgba(168, 166, 161, 0.8);
 }
 
+=======
+}
+
+.FirstContent a:hover {
+  color: rgba(168, 166, 161, 0.8);
+}
+
+>>>>>>> ba8f0c40f267d863b24aa75036865406bda9ea4d
 /* Adaptable screen layout */
 @media only screen and (max-width: 640px) {
   .FirstContent h1 {
