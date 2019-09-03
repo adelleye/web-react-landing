@@ -3,19 +3,21 @@
   padding: 25px;
   z-index: 100;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }
 .HeaderScrolled {
   background: #38383b;
-  padding: 15px 0;
+  transition: 1s;
   backdrop-filter: blur(20px);
 }
 
 #site-title {
-  margin: 0;
-  padding-left: 30px;
+  margin: auto;
+  margin-left: 30px;
   width: 50%;
-  align-items: center;
+  align-items: left;
+  justify-items: left;
 }
 
 #site-title a {
@@ -28,10 +30,11 @@
 .HeaderGroup {
   margin: 0, 100;
   padding-right: 30px;
-  width: 50%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(6, auto);
   align-items: center;
+  justify-items: center;
 }
 
 .Header a {
@@ -40,11 +43,14 @@
   font-size: 16px;
   line-height: 29px;
 }
+
 .Header button {
   background-color: rgba(168, 166, 160, 1);
   padding: 20px 30px;
   border: none;
   color: #ffffff;
+  margin: auto;
+  margin-right: 30px;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
