@@ -58,7 +58,12 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="FourthContent"></div>
+      <div className="FourthContent">
+        <div className="FourthContentGroup">
+          <h2>Subscribe to Our Newsletter </h2>
+          <p>Sign up to receive news and updates.</p>
+        </div>
+      </div>
     </div>
   </Layout>
 )
