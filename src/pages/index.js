@@ -43,6 +43,9 @@ const IndexPage = () => (
       <div className="ViewMoreButton">
         <button>View More</button>
       </div>
+      <div className="ThirdContent"> </div>
+
+      <div className="FourthContent"></div>
     </div>
   </Layout>
 )
