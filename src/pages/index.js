@@ -62,6 +62,32 @@ const IndexPage = () => (
         <div className="FourthContentGroup">
           <h2>Subscribe to Our Newsletter </h2>
           <p>Sign up to receive news and updates.</p>
+
+          <div className="FieldsWrapper">
+            <form>
+              <label for="fname"></label>
+              <input
+                type="text"
+                id="fname"
+                placeholder="First Name"
+                name="fname"
+              />
+              <label for="lname"></label>
+              <input
+                type="text"
+                id="lname"
+                placeholder="Last Name"
+                name="lname"
+              />
+              <label for="emaila"></label>
+              <input
+                type="email"
+                id="emaila"
+                placeholder="Email Address"
+                name="lname"
+              />
+            </form>
+          </div>
         </div>
       </div>
     </div>
