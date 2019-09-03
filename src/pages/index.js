@@ -86,6 +86,7 @@ const IndexPage = () => (
                 placeholder="Email Address"
                 name="lname"
               />
+              <input type="submit" value="Sign Up" />
             </form>
           </div>
         </div>
