@@ -43,54 +43,61 @@ const IndexPage = () => (
       <div className="ViewMoreButton">
         <button>View More</button>
       </div>
-      <div className="ThirdContent">
-        <div className="ThirdContentLeftSide">
-          <h2>
-            With an emphasis on breathing techniques and meditation, we promote
-            thoughtful and reflexive yoga to promote both physical and mental
-            well-being.
-          </h2>
-        </div>
+    </div>
 
-        <div className="ThirdContentRightSide">
-          <p>Learn more about our studio and philosophy around yoga.</p>
-          <button>Learn More</button>
-        </div>
+    <div className="ThirdContent">
+      <div className="ThirdContentLeftSide">
+        <h2>
+          With an emphasis on breathing techniques and meditation, we promote
+          thoughtful and reflexive yoga to promote both physical and mental
+          well-being.
+        </h2>
       </div>
 
-      <div className="FourthContent">
-        <div className="FourthContentGroup">
-          <h2>Subscribe to Our Newsletter </h2>
-          <p>Sign up to receive news and updates.</p>
+      <div className="ThirdContentRightSide">
+        <p>Learn more about our studio and philosophy around yoga.</p>
+        <button>Learn More</button>
+      </div>
+    </div>
 
-          <div className="FieldsWrapper">
-            <form>
-              <label for="fname"></label>
-              <input
-                type="text"
-                id="fname"
-                placeholder="First Name"
-                name="fname"
-              />
-              <label for="lname"></label>
-              <input
-                type="text"
-                id="lname"
-                placeholder="Last Name"
-                name="lname"
-              />
-              <label for="emaila"></label>
-              <input
-                type="email"
-                id="emaila"
-                placeholder="Email Address"
-                name="lname"
-              />
-              <input type="submit" value="Sign Up" />
-            </form>
-          </div>
+    <div className="FourthContent">
+      <div className="FourthContentGroup">
+        <h2>Subscribe to Our Newsletter </h2>
+        <p>Sign up to receive news and updates.</p>
+
+        <div className="FieldsWrapper">
+          <form>
+            <label for="fname"></label>
+            <input
+              type="text"
+              id="fname"
+              placeholder="First Name"
+              name="fname"
+            />
+            <label for="lname"></label>
+            <input
+              type="text"
+              id="lname"
+              placeholder="Last Name"
+              name="lname"
+            />
+            <label for="emaila"></label>
+            <input
+              type="email"
+              id="emaila"
+              placeholder="Email Address"
+              name="lname"
+            />
+            <input type="submit" value="Sign Up" />
+          </form>
         </div>
       </div>
+    </div>
+
+    <div className="PageFooter">
+      <h3>Colima</h3>
+
+      <p>Made with Squarespace </p>
     </div>
   </Layout>
 )

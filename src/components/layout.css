@@ -14,7 +14,13 @@ a {
   font-weight: 600;
   text-decoration: none;
 }
-
+h2 {
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+}
 .FirstContent {
   background: url("../images/mainImage.jpg");
   height: 800px;
@@ -99,7 +105,7 @@ a {
 }
 
 .SecondContent {
-  height: 800px;
+  height: 900px;
   position: relative;
 }
 
@@ -170,7 +176,7 @@ a {
   margin-top: 100px;
 }
 .ViewMoreButton {
-  padding-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .ViewMoreButton button {
@@ -257,7 +263,7 @@ a {
 .FieldsWrapper {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 20px;
+
   align-items: center;
   justify-content: center;
 }
@@ -300,4 +306,10 @@ input[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+}
+
+.PageFooter {
+  max-width: 100%;
+  height: 250px;
+  background-color: white;
 }
