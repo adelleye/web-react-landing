@@ -44,7 +44,7 @@ const IndexPage = () => (
         <button>View More</button>
       </div>
       <div className="ThirdContent">
-        <div className="LeftSide">
+        <div className="ThirdContentLeftSide">
           <h2>
             With an emphasis on breathing techniques and meditation, we promote
             thoughtful and reflexive yoga to promote both physical and mental
@@ -52,7 +52,7 @@ const IndexPage = () => (
           </h2>
         </div>
 
-        <div className="RightSide">
+        <div className="ThirdContentRightSide">
           <p>Learn more about our studio and philosophy around yoga.</p>
           <button>Learn More</button>
         </div>
