@@ -43,7 +43,20 @@ const IndexPage = () => (
       <div className="ViewMoreButton">
         <button>View More</button>
       </div>
-      <div className="ThirdContent"> </div>
+      <div className="ThirdContent">
+        <div className="LeftSide">
+          <h2>
+            With an emphasis on breathing techniques and meditation, we promote
+            thoughtful and reflexive yoga to promote both physical and mental
+            well-being.
+          </h2>
+        </div>
+
+        <div className="RightSide">
+          <p>Learn more about our studio and philosophy around yoga.</p>
+          <button>Learn More</button>
+        </div>
+      </div>
 
       <div className="FourthContent"></div>
     </div>
