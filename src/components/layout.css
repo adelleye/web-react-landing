@@ -342,7 +342,22 @@ input[type="submit"] {
   text-decoration: underline;
 }
 
+.FooterFirstGroup {
+  display: grid;
+  margin: auto;
+}
+
+.FooterSecondGroup {
+  display: grid;
+  margin: auto;
+}
 .FooterThirdGroup {
   display: grid;
   grid-template-rows: repeat(4, auto);
+  margin: auto;
+}
+.FooterFourthGroup {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: auto;
 }
