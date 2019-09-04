@@ -316,3 +316,33 @@ input[type="submit"] {
   align-items: center;
   margin: auto;
 }
+
+.PageFooter h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 43px;
+  margin: 0;
+}
+
+.PageFooter p {
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.PageFooter a {
+  color: #a8a6a1;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.FooterThirdGroup {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
