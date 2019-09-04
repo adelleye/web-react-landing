@@ -312,7 +312,7 @@ input[type="submit"] {
   height: 250px;
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(4, auto);
   align-items: center;
   margin: auto;
 }

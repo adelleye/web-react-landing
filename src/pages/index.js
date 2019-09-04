@@ -95,9 +95,27 @@ const IndexPage = () => (
     </div>
 
     <div className="PageFooter">
-      <h3>Colima</h3>
+      <div className="FooterFirstGroup">
+        <h3>Colima</h3>
+        <p>Made with Squarespace </p>
+      </div>
 
-      <p>Made with Squarespace </p>
+      <div className="FooterSecondGroup">
+        <p>
+          123 Demo Street <br />
+          Lake Tahoe, CA <br />
+          (555) 555-5555
+        </p>
+      </div>
+
+      <div className="FooterThirdGroup">
+        <p>123 Demo Street Lake Tahoe</p>
+      </div>
+
+      <div className="FooterThirdGroup">
+        <p>Twitter</p>
+        <p>Instagram</p>
+      </div>
     </div>
   </Layout>
 )
